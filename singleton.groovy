@@ -1,5 +1,6 @@
 // prefer the enum definition in java esp. due to the deserialization problem 
 // (two objects that are deserialized will be different breaking the pattern)
+// and the fact that the enum does not require synchronization code
 @Singleton(lazy = true) class T {}
 
 //Would become more or less equivalent to this Groovy class:
