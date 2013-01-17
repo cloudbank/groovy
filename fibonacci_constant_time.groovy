@@ -4,7 +4,7 @@ the nth fibonacci number can be expressed as a recurrence relation
 Fn = Fn-1 + Fn-2
 This is often solved via recursion in CS with a such a soln: 
 fibonacci(int n) { 
-    n <= 1 ? n :  factorial(n-1) + factorial(n-2);
+    n <= 1 ? n :  fibonacci(n-1) + fibonacci(n-2);
 }    
 in exponential time O(2^n) as each call creates two more recursive calls.
 The problem can also be solved in linear time using memoization to cache the result.
