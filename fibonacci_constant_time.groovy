@@ -21,7 +21,7 @@ Fn = A[(phi)^n] + B[(rho)^n]
 Solving the boundary conditions given by the definition of the fibonacci sequence F(0) =0 and F(1) =1 gives:
 A + B = 0
 A = -B
-phi + rho = 1
+A(phi) + B(rho) = 1
 ==> yields
 A = 1 /sqrt(5), B = - 1/sqrt(5)
 which gives
