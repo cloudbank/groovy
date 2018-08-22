@@ -1,5 +1,7 @@
 /*  CONSTANT TIME FIBONACCI  
 
+this won't work with bigger numbers, instead use a fast doubling with BigInteger
+
 the nth fibonacci number can be expressed as a recurrence relation 
 Fn = Fn-1 + Fn-2
 This is often solved via recursion in CS with a such a soln: 
